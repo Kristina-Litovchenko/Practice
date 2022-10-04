@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: Lato;
+	color:#1E212C;
+	background-color:  #F4F5F7;;
+}
+
+[class*="-container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 30px;
+}
+.course {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 5px ;
+}
+.learn {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin-bottom: 20px;
+}
+span{
+	color: red;
+}
+.text {
+	color: #424551;
+	line-height: 1.6;
+}
+ul li{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 12px;
+}
+.list span::before{
+	content:"-" ;
+	display: inline-block;
+	padding-right:10px;
+}
+.lessons span::before{
+	content: "+";
+	display: inline-block;
+	padding-right:10px;
+}
+.page-testimonials h1,h2{
+	text-align: center;
+}
+.page-testimonials h2{
+	margin-bottom: 5px;
+}
+.page-testimonials h1{
+	margin-bottom: 20px;;
+}
+.lorem {
+	color: #424551;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	background: url('../img/icons/braces.svg') 0 0px no-repeat;
+	padding-left: 50px ;
+}
+img,.image {
+	max-width: 100%;
+}
+.image img {
+	margin-bottom: 15px;
+}
+.subtitle {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 4x;
+}
+.opacity {
+	color: #787A80;
+}
+
